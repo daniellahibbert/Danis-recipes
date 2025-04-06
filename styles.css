@@ -8,13 +8,15 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 20px 80px;
+    padding: 24px 120px;
+    padding-bottom: 75px;
   }
 
   .logo {
     color: white;
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
+    padding: 10px 25px;
   }
   
   .nav-links {
@@ -35,9 +37,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px;
+    gap: 18px;
+    padding: 0 150px;
+    padding-bottom: 20px;
     background-color: #1f2937;
     color: white;
+  
   }
 
   .hero-text {
@@ -49,7 +54,7 @@ body {
   }
 
   .hero-text p {
-    font-size: 28px;
+    font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 20px;
   }
@@ -65,8 +70,8 @@ body {
   }
 
   .hero-img img {
-    max-width: 400px;
-    height: auto;
+    /* max-width: 400px;
+    height: auto;*/
     align-self: center;
   }
 
